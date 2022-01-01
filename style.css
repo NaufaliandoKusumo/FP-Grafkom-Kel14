@@ -1,0 +1,192 @@
+
+body {
+  margin: 0;
+  background-color: rgba(89, 82, 107, 0.562);
+  background-image: -webkit-gradient (linear, left top, right top, from(#000000), to(#333333));
+  background-image: -webkit-linear-gradient(left, #000000, #333333);
+  background-image: -moz-linear-gradient(left, #000000, #333333);
+  background-image: -o-linear-gradient(left, #000000, #333333);
+  background-image: linear-gradient(to right, #000000, #333333);
+  margin: 0px;
+  overflow: hidden;
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+}
+
+/*Controls Box*/
+.controls-box {
+  color: #d4d4d6;
+  font-family: Helvetica;
+  font-size: 14px;
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+  padding: 20px;
+  border-radius: 6px;
+  background-color: rgba(57, 56, 59, 0.678);
+}
+
+/*Controls Heading*/
+.controls-box .heading {
+  color: rgb(199, 146, 230);
+  font-style: oblique;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+/*Controls Table*/
+.controls-box table {
+  max-width: 250px;
+}
+
+/*Controls Arrow*/
+.controls-box .arrow {
+  font-size: 32px;
+}
+
+/*Controls Instruction*/
+.controls-box .instruction {
+  padding-left: 20px;
+  padding: 10px 0 10px 20px;
+}
+
+.button {
+  background: transparent;
+  border: 3px solid rgba(146, 47, 240, 0.623);
+  color: rgb(255, 255, 255);
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.4s;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.button:hover {
+  background-color: rgba(15, 56, 238, 0.644);
+  color: white;
+}
+
+.menu-box {
+  color: #fddada;
+  font-family: Helvetica;
+  font-size: 14px;
+  position: fixed;
+  right: 45%;
+  transform: translateY(-50%);
+  bottom: 1px;
+  margin-right: 1px;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.score-box {
+  color: #b6b6b6;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: fixed;
+  right: 45%;
+  transform: translateY(-50%);
+  top: 8%;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.score-box .move {
+  font-size: 32px;
+}
+
+.score-box .move .num{
+  font-family: fantasy;
+  font-size: 40px;
+  font-style: oblique;
+  color: rgb(179, 134, 79);
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 35px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+}
+
+/* Modal Content */
+.modal-content {
+  font-family: fantasy;
+  font-style: italic;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 60px;
+  margin: auto;
+  padding : 10px;
+  width: 60%;
+  border-radius: 2rem;
+  color: rgb(170, 192, 209);
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  padding : 50px;
+  width: 60%;
+  border: 2px solid rgb(43, 14, 204);
+  border-radius: 2rem;
+  color: aliceblue;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.inf-box {
+  color: #d4d4d6;
+  font-family: Helvetica;
+  font-size: 14px;
+  position: fixed;
+  top: 40%;
+  transform: translateY(-50%);
+  left: 20px;
+  padding: 20px;
+  border-radius: 6px;
+  background-color: rgba(57, 56, 59, 0.678);
+}
+
+.inf-box .heading {
+  color: rgb(199, 146, 230);
+  font-style: oblique;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.inf-box table {
+  max-width: 250px;
+}
+
+.inf-box .arrow {
+  font-size: 32px;
+}
+
+.inf-box .instruction {
+  font-size: large;
+  padding-left: 20px;
+  padding: 5px;
+}
