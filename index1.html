@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Puzzle Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <div class="score-box">
+      <div class="move">
+        Moves: <a class="num" id="score_id">0</a>
+      </div>
+    </div>
+
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <p>Level Complete</p>
+      </div>
+    </div>
+
+    <div class="inf-box">
+      <div class="heading">Instruction</div>
+      <table>
+        <tr>
+          <td class="instruction">Move the</td>
+        </tr>
+        <tr>
+          <td class="instruction">golden cone</td>
+        </tr>
+        <tr>
+          <td class="instruction">to the</td>
+        </tr>
+        <tr>
+          <td class="instruction">green box</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="controls-box">
+      <div class="heading">Controls</div>
+      <table>
+        <tr>
+          <td class="arrow">&uarr;</td>
+          <td class="instruction">K</td>
+        </tr>
+        <tr>
+          <td class="arrow">&darr;</td>
+          <td class="instruction">M</td>
+        </tr>
+        <tr>
+          <td class="arrow">&larr;</td>
+          <td class="instruction">A</td>
+        </tr>
+        <tr>
+          <td class="arrow">&rarr;</td>
+          <td class="instruction">D</td>
+        </tr>
+        <tr>
+          <td class="arrow">&#8673;</td>
+          <td class="instruction">W</td>
+        </tr>
+        <tr>
+          <td class="arrow">&#8675;</td>
+          <td class="instruction">S</td>
+        </tr>
+      </table>
+    </div>
+    
+    <div class="menu-box">
+      <a class="button" href="index.html">
+        Home
+      </a>
+      <a class="button" href="index1.html">
+        Restart
+      </a>
+    </div>
+
+    <script src="js/three.min.js"></script>
+    <script src="js/OrbitControls.js"></script>
+
+    <script src="lvl1.js"></script>
+  </body>
+  <audio controls loop autoplay hidden>
+    <source src="music/GalaxyMusic.MP3" type="audio/mpeg">
+  </audio>
+</html>
